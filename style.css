@@ -1,0 +1,46 @@
+form {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px; 
+}
+tbody tr:hover {
+    background-color: lightblue;
+}
+table th:hover {
+    background-color: lightcyan!important;
+}
+table {
+display: flex;
+justify-content: center;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    border-radius: 5px;
+
+    }
+
+table th,
+table td {
+    border-right: 1px solid #ddd; 
+    background-color: #ecf0f3 !important;
+    border-radius: 5px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    th,
+    td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    th {
+        font-weight: bold;
+    }
+}
